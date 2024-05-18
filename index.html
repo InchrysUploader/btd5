@@ -18,5 +18,12 @@
     })
 </script>
 <script src="ruffle/ruffle.js"></script>
+<button onclick="Fullscreen()">Fullscreen</button>
+<script>
+        function Fullscreen() {
+            var gameframe = document.getElementById('ruffle');
+            gameframe.requestFullscreen();
+        }
+    </script>
 <div id="container" width="100vh" height="100vh" style="align-items: center; justify-content: center;display: flex;"></div>
 </body>
